@@ -1,0 +1,94 @@
+fma rt, ra, rb, rc	1110
+fnms rt, ra, rb, rc	1101
+fms rt, ra, rb, rc	1111
+ila rt, imm18	0100001
+addx rt, ra, rb	01101000000
+cg rt, ra, rb	00011000010
+bg rt, ra, rb	00001000010
+sfx rt, ra, rb	01101000001
+ilh rt, imm16	010000011
+il rt, imm16	010000001
+ilhu rt, imm16	010000010
+iohl rt, imm16	011000001
+mpyi rt, ra, imm10	01110100
+mpyui rt, ra, imm10	01110101
+ahi rt, ra, imm10	00011101
+ai rt, ra, imm10	00011100
+sfhi rt, ra, imm10	00001101
+sfi rt, ra, imm10	00001100
+ceqhi rt, ra, imm10	01111101
+ceqi rt, ra, imm10	01111100
+cgthi rt, ra, imm10	01001101
+cgti rt, ra, imm10	01001100
+clgtbi rt, ra, imm10	01011110
+clgthi rt, ra, imm10	01011101
+clgti rt, ra, imm10	01011100
+mpy rt, ra, rb	01111000100
+mpya rt, ra, rb, rc	1100
+mpys rt, ra, rb	01111000111
+mpyhh rt, ra, rb	01111000110
+mpyu rt, ra, rb	01111001100
+mpyh rt, ra, rb	01111000101
+fa rt, ra, rb	01011000100
+fs rt, ra, rb	01011000101
+fm rt, ra, rb	01011000110
+shlh rt, ra, rb	00001011111
+shl rt, ra, rb	00001011011
+roth rt, ra, rb	00001011100
+rot rt, ra, rb	00001011000
+cntb rt, ra	01010110100
+avgb rt, ra, rb	00011010011
+absdb rt, ra, rb	00001010011
+sumb rt, ra, rb	01001010011
+ah rt, ra, rb	00011001000
+a rt, ra, rb	00011000000
+sfh rt, ra, rb	00001001000
+sf rt, ra, rb	00001000000
+and rt, ra, rb	00011000001
+or rt, ra, rb	00001000001
+xor rt, ra, rb	01001000001
+nand rt, ra, rb	00011001001
+ceqh rt, ra, rb	01111001000
+ceq rt, ra, rb 	01111000000
+cgth rt, ra, rb	01001001000
+cgt rt, ra, rb	01001000000
+clgtb rt, ra, rb	01011010000
+clgth rt, ra, rb	01011001000
+clgt rt, ra, rb	01011000000
+nop	01000000001
+lnop	00000000001
+shli rt, ra, imm7	00001111011
+shlhi rt, ra, imm7	00001111111
+rothi rt, ra, imm7	00001111100
+roti rt, ra, imm7	00001111000
+lqd rt, imm10(ra)	00110100
+stqd rt, imm10(ra)	00100100
+lqa rt, imm16	001100001
+stqa rt, imm16	001000001
+lqr rt, imm16	001100111
+stqr rt, imm16	001000111
+br imm16	001100100
+bra imm16	001100000
+binz rt, ra	00100101001
+bihnz rt, ra	00100101011
+brhz rt, imm16	001000100
+brasl rt, imm16	001100010
+brsl rt, imm16	001100110
+brnz rt, imm16	001000010
+brhnz rt, imm16	001000110
+brz rt, imm16	001000000
+shlqbi rt, ra, rb	00111011011
+shlqby rt, ra, rb	00111011111
+rotqby rt, ra, rb	00111011100
+lqx rt, ra, rb	00111000100
+stqx rt, ra, rb	00101000100
+bi ra	00110101000
+biz rt, ra	00100101000
+bihz rt, ra	00100101010
+shlqbi rt, ra, rb	00111011011
+shlqbii rt, ra, imm7	00111111011
+shlqbybi rt, ra, rb	00111001111
+rotqbybi rt, ra, rb	00111001100
+shlqbyi rt, ra, imm7	00111111111
+rotqbyi rt, ra, imm7	00111111100
+stop	00000000000
